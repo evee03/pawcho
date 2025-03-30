@@ -5,8 +5,7 @@ Zadanie prezentuje proces wieloetapowego budowania (multi-stage build) obrazu Do
 ## Wymagania dotyczące pliku Dockerfile
 
 ### Etap 1:
-- Używa obrazu bazowego scratch ( (dowolny - może być użyty w trakcie lab, obraz 
-alpine.)
+- Używa obrazu bazowego scratch (dowolny - może być użyty w trakcie lab, obraz alpine.)
 - Buduje prostą aplikację webową wyświetlającą:
   - Adres IP serwera
   - Nazwę hosta (hostname)
@@ -58,11 +57,17 @@ Przykładowy wynik działania dostępny jest na załączonym zrzucie ekranu.
 ## Dokumentacja
 
 https://docs.docker.com/build/building/multi-stage/
+
 https://www.alpinelinux.org/downloads/
+
 https://docs.docker.com/build/building/base-images/
+
 https://hub.docker.com/_/scratch
+
 https://docs.docker.com/engine/reference/builder/#healthcheck 
+
 https://nginx.org/en/docs/ngx_core_module.html
+
 https://nginx.org/en/docs/stream/ngx_stream_proxy_module.html#proxy_pass
 
 
