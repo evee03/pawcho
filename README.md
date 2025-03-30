@@ -25,7 +25,7 @@ wartości zmiennej VERSION definiowanej przez instrukcje ARG.
 - `Dockerfile` - plik konfiguracyjny dla wieloetapowego budowania
 - Aplikacja webowa wyświetlająca informacje o systemie
 - Konfiguracja Nginx do serwowania aplikacji
-- - `Lab5 EM.pdf` - sprawozdanie z realizacji zadania
+- `Lab5 EM.pdf` - sprawozdanie z realizacji zadania
 
 ## Instrukcja użycia
 
