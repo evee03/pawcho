@@ -1,6 +1,6 @@
 # Wieloetapowe budowanie obrazu Docker
 
-Zadanie prezentuje proces wieloetapowego budowania (multi-stage build) obrazu Docker, który tworzy lekką aplikację webową. Projekt spełnia następujące wymagania:
+Zadanie prezentuje proces wieloetapowego budowania (multi-stage build) obrazu Docker, który tworzy lekką aplikację webową. Zadanie spełnia następujące wymagania:
 
 ## Wymagania dotyczące pliku Dockerfile
 
@@ -20,10 +20,7 @@ wartości zmiennej VERSION definiowanej przez instrukcje ARG.
 - Konfiguruje jako domyślną stronę startową
 - Zawiera sprawdzanie poprawności działania (HEALTHCHECK)
 
-## Struktura projektu
-- `Dockerfile` - plik konfiguracyjny dla wieloetapowego budowania
-- Aplikacja webowa wyświetlająca informacje o systemie
-- Konfiguracja Nginx do serwowania aplikacji
+## Sprawozdanie
 - `Lab5 EM.pdf` - sprawozdanie z realizacji zadania
 
 ## Instrukcja użycia
@@ -51,8 +48,6 @@ Aplikacja wyświetla:
 - Adres IP serwera
 - Nazwę hosta
 - Wersję aplikacji (przekazaną podczas budowania)
-
-Przykładowy wynik działania dostępny jest na załączonym zrzucie ekranu.
 
 ## Dokumentacja
 
